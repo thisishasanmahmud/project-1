@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* header area css */
+
+.header{
+    height: 80px;
+    padding: 30px 7%;
+}
+
+.logo{
+    width: 30%;
+    height: auto;
+    padding-top: 18px;
+    float: left;
+
+}
+.logo a {
+    font-size: 45px;
+    text-align: left;
+    color: #00d084;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+.navigation{
+    width: 70%;
+    height: auto;
+    float: left;
+}
+.navigation ul{
+    text-align: right;
+    list-style-type: none;
+    padding-left: 25px;
+}
+.navigation ul li {
+    display: inline-block;
+    padding: 18px 12px;
+}
+.navigation ul li a{
+    text-decoration: none;
+    font-size: 30px;
+    color: #00d084;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.navigation ul li a:hover{
+    color: #000000;
+}
+
+/* upper body css */
+
+.upper-body{
+    height: 650;
+    margin-top: 100px;
+}
+.doc {
+    width: 50%;
+    height: auto;
+    float: left;
+    padding: 20px 10%;
+    box-sizing: border-box;
+    text-align: center;
+}
+.doc h2 {
+    font-size: 30px;
+    line-height: 40px;
+    color: #333333;
+    font-weight: 300;
+}
+.doc a {
+    padding: 14px 130px;
+    background-color: #09c274;
+    margin: 15px 0 25px 0;
+    display: inline-block;
+    border-radius: 50px;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-decoration: none#09c274;
+    box-shadow:  0 2px 3px rgba(242, 149, 102, 0.664);
+}
+.doc a:hover {
+    background-color: #fa7431;
+}
+.doc h3 {
+    font-size: 30px;
+    line-height: 35px;
+    font-weight: 400;
+    color:#0f5392;
+}
+.image{
+    height: auto;
+    width: 50%;
+    float: left;
+}
+.image img {
+    max-width: 100%;
+}
+
+/* lower body css */
+
+.lower-body{
+    height: 660px;
+}
+.second-image{
+    width: 50%;
+    height: auto;
+    float: left;
+}
+.second-image img{
+    width: 100%;
+}
+.second-doc{
+    width: 50%;
+    height: auto;
+    float: left;
+    text-align: center;
+    padding: 60px 10%;
+    box-sizing: border-box;
+}
+.second-doc h2{
+    font-size: 55px;
+    line-height: 65px;
+    color: #02673F;
+    text-transform: uppercase;
+    font-weight: 450;
+}
+.second-doc h2 span{
+    font-weight: 900;
+}
+.second-doc h3 {
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 400;
+    padding-top: 20px;
+}
+footer{
+    width: 100%;
+    text-align: center;
+    padding: 15px 10%;
+    box-sizing: border-box;
+}
